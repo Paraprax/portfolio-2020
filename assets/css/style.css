@@ -5,3 +5,10 @@ body {
 #header a:hover {
     color: lime;
 }
+
+#bg-img {
+    background: url('../images/romaintrystram-jungle-islands.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
