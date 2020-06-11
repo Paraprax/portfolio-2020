@@ -50,3 +50,7 @@ body {
     border-width: 2px;
     margin-top: 6px;
 }
+
+#projects .card {
+    border-top: 3px solid rgb(150, 48, 218);
+}
