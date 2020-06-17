@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-    color: white;
+    color: honeydew;
     background-color: rgb(19, 29, 29);
     border-style: groove;
     border-width: 2px;
@@ -82,9 +82,15 @@ body {
 #contact span {
     /* top,left,bottom,right */
     padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 111, 0);
 }
 
-#contact hr {
+#forms {
+    background-color:  rgb(19, 29, 29);
+    border-style: groove;
     border-width: 2px;
-    margin-top: 6px;
+    border-color: rgb(0, 0, 0);
+    border-top-color:  rgb(255, 111, 0);
+    color: honeydew;
+    margin-top: 5px;
 }
