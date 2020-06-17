@@ -1,9 +1,13 @@
 body {
-    background: #CCC;
+    background: rgb(40, 40, 40);
+}
+
+#navbar {
+    background-color: rgb(29, 29, 29); 
 }
 
 #header a:hover {
-    color: lime;
+    color: rgb(30, 254, 119);
 }
 
 #bg-img {
@@ -11,6 +15,15 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 500px;
+}
+
+.card {
+    color: white;
+    background-color: rgb(19, 29, 29);
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    opacity: 0.95;
 }
 
 #about {
@@ -26,9 +39,19 @@ body {
     padding: 10px 20px 10px 20px;
 }
 
-#about hr {
+#about p {
+    padding: 10px 20px 10px 20px;
+}
+
+#about .bio {
+    background-color:  rgb(19, 29, 29);
+    border-style: groove;
     border-width: 2px;
-    margin-top: 6px;
+    border-color: rgb(0, 0, 0);
+    border-top-color: #d03e54; /* matched bootstrap danger red*/
+    border-radius: 10px;
+    color: honeydew;
+    margin-top: 5px;
 }
 
 #skills span {
@@ -52,6 +75,7 @@ body {
 }
 
 #projects .card {
+    background-color:  rgb(19, 29, 29);
     border-top: 3px solid rgb(150, 48, 218);
 }
 
