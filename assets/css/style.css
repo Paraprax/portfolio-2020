@@ -1,13 +1,20 @@
 body {
     background: rgb(40, 40, 40);
+    background-image: url('../images/MERN-stack-wallpaper.png');
 }
 
 #navbar {
     background-color: rgb(29, 29, 29); 
+    opacity: 0.95;
 }
 
 #header a:hover {
-    color: rgb(30, 254, 119);
+    color: rgb(29, 181, 90);
+}
+
+#web-dev {
+    letter-spacing: 5px;
+    font-size: smaller;
 }
 
 #bg-img {
@@ -15,6 +22,10 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 500px;
+}
+
+td {
+    color: rgb(29, 181, 90);
 }
 
 .card {
@@ -26,12 +37,21 @@ body {
     opacity: 0.95;
 }
 
+.card-footer {
+    background-color: rgb(139, 28, 237);
+    opacity: 0.5;
+}
+
 #about {
     margin-top: -200px;
 }
 
 #about .fa {
-    color: darkslateblue;
+    color: rgb(15, 240, 105);
+}
+
+#about .fa a:hover {
+    color: rgb(0, 255, 102);
 }
 
 #about span {
@@ -52,6 +72,10 @@ body {
     border-radius: 10px;
     color: honeydew;
     margin-top: 5px;
+}
+
+#gitlink {
+    color: rgb(139, 28, 237);
 }
 
 #skills span {
@@ -86,6 +110,7 @@ body {
 }
 
 #forms {
+    padding: 20px 20px 10px 20px;
     background-color:  rgb(19, 29, 29);
     border-style: groove;
     border-width: 2px;
@@ -93,4 +118,13 @@ body {
     border-top-color:  rgb(255, 111, 0);
     color: honeydew;
     margin-top: 5px;
+}
+
+.form-control {
+    background-color: rgb(119, 130, 130);
+    border-color: rgb(0, 0, 0);
+}
+
+#submit-button {
+    background-color: rgb(255, 111, 0);
 }
